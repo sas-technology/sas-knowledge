@@ -40,3 +40,9 @@ its own agent sessions.
 These rules apply to agent sessions working inside sas-technology
 repositories. They are guidance for how an agent should behave here,
 not a legal agreement.
+
+## Branching
+
+Open pull requests against `staging`. `main` only takes releases from
+`staging`, so a PR opened against `main` will be refused by the org
+release-version check. See `sas-technology/.github` for the full flow.
